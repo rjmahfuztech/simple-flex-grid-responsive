@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px) 50px 50px;
+  gap: 15px;
+}
+.box {
+  background-color: gray;
+  text-align: center;
+  padding-top: 10px;
+}
+#box1 {
+  grid-row: span 5;
+}
+#box11,
+#box12 {
+  grid-column: span 3;
+}
+#box6,
+#box7,
+#box9,
+#box10 {
+  background-color: rgb(182, 70, 29);
+}
